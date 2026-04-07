@@ -9,7 +9,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/juhii2004/mcp.git'
+                git branch: 'main', url: 'https://github.com/juhii2004/mcp.git'
             }
         }
 
